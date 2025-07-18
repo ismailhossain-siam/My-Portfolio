@@ -39,6 +39,13 @@ nav ul a{
     text-decoration: none;
     font-size: 20px;
 }
+.text-center{
+    text-align: center;
+}
+.color-bg{
+    background-color:#FFF8F3 ;
+    margin: 0%;
+}
 .button-primary{
     background-color: #FD6E0A;
     font-size: 20px;
@@ -51,11 +58,13 @@ nav ul a{
 .banner-grid{
     font-size: 45px;
     font-weight: 600;
-    padding: 0px;
+   margin-bottom: 0px;
+ 
 }
 .banner-title{
     font-weight:bold;
     font-size: 70px;
+ 
 }
 .banner-text{
     font-size: 18px;
@@ -72,5 +81,87 @@ nav ul a{
     background-image: url('../images/developer.png' ), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    margin: 0 0 0 30px;
+    
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align:center;
+    
+    font-size: 18px;
+}
+.about-items{
+    display:flex;
+    justify-content:space-around;
+}
+.item-description{
+    font-weight: 600;
+}
+.section-description{
+    font-size: 18px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0 60px 50px 0  rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+
+}
+.resume-conteinar{
+    display: flex;
+    gap: 24px;
+}
+.experience-description{
+    color: rgba(117, 117, 117, 1);
+}
+.experience-sub-title{
+    color: rgba(117, 117, 117, 1);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.resume hr{
+    margin: 30px 5px;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+form{
+    display: block;
+}
+input{
+    width: 57.5%;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+    border: #FFF8F3;
+}
+textarea{
+    font-size: 16px;
+    border: #FFF8F3;
 }
